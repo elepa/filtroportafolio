@@ -1,2 +1,2 @@
 # filtroportafolio
-practica html 2012
+Aplicar muuri a html
