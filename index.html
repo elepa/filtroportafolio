@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafolio Fotografico de Luisa</title>
+    
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+           <!--logotipo--> 
+           <div class="logo">
+               <h1> Luisa </h1>
+               <p>Fotografa </p>
+
+           </div> 
+            <form action="">
+            <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Lugares</a>
+                <a href="#">Comidas</a>
+                <a href="#">Gatos</a>
+            </div>
+        </header>
+        <div class="grid" id="grid">
+           <div class="item" 
+                 data-categoria="comidas"
+                 data-etiquetas="comidas recetas frutas verduras zumos "
+                 data-descripcion="todo lo que como es vegano ">
+
+                <div class="item-content">
+                    <img src="imageness/fotoss/comidas8.png" alt="no esta">
+                </div>
+
+           </div>
+           <div class="item" 
+                 data-categoria="naturaleza"
+                 data-etiquetas="viajes lugares sitios  mar "
+                 data-descripcion="los viajes me inspiran">
+                <div class="item-content">
+                    <img src="imageness/fotoss/gatolucas.png" alt="no esta">
+                </div>    
+           </div>
+           
+           <div class="item"
+                 data-categoria="gatos"
+                 data-etiquetas="lugares viajes sitios "
+                 data-descripcion="aprende a descubrir nuevos retos" >
+                <div class="item-content">
+                    <img src="imageness/fotoss/gato1.png" alt="no esta">
+                </div>    
+           </div> 
+
+           <div class="item"
+                 data-categoria="comidas"
+                 data-etiquetas="recetas "
+                 data-descripcion="azucar natural es la fruta" >
+                <div class="item-content">
+                    <img src="imageness/fotoss/comidas2.png" alt="no esta">
+                </div>    
+           </div> 
+           <div class="item"
+                 data-categoria="gatos"
+                 data-etiquetas="gatos "
+                 data-descripcion="tigre el mas viajero" >
+                <div class="item-content">
+                    <img src="imageness/fotoss/gatotigre.png" alt="no esta">
+                </div>    
+           </div> 
+
+           <div class="item"
+                 data-categoria="gatos"
+                 data-etiquetas="gatos viajes "
+                 data-descripcion="paco el mas hogareño" >
+                <div class="item-content">
+                    <img src="imageness/fotoss/gatopaco.jpg" alt="no esta">
+                </div>    
+           </div> 
+          
+        </div>  
+    <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+            <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+            <img src="" alt="">
+        </div>
+        <p class="descripcion"></p>
+    </section>  
+   
+    <footer class="contenedor">
+        <div class="redes-sociales">
+            <div class="contenedor-icono">
+                <a href="http://www.twitter.com" target="_blank" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="contenedor-icono">
+                <a href="http://www.facebook.com" target="_blank" class="facebook">
+                    <i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="contenedor-icono">
+                <a href="http://www.instagram.com" target="_blank" class="instagram">
+                    <i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+         <div class="creado-por">
+           <p>Sitio diseñado por Elena Alvarez 2020 </a></p>
+         </div>
+    </footer>
+   
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>        
+</body>
+     
+</html>
+                   
