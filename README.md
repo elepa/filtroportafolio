@@ -1,2 +1,2 @@
 # filtroportafolio
-Aplicar muuri a html
+Este filtro es del portafolio fotografico, con libreria muuri 
